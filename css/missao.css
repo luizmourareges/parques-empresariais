@@ -1,0 +1,84 @@
+.missao {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 80px;
+}
+
+.missao-titulo {
+    text-align: center;
+}
+
+.missao-titulo h2 {
+    font-size: 20px;
+    color: #DADADA;
+    font-family: "Poppins", Arial, sans-serif;
+    margin-bottom: 15px;
+}
+
+.missao-titulo h1 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #FFFFFF;
+    font-family: "Poppins", Arial, sans-serif;
+    margin-bottom: 10px;
+}
+
+.missao-titulo p {
+    font-size: 18px;
+    color: #A5A5A5;
+    margin-bottom: 60px;
+}   
+
+.missao-itens {
+    max-width: 960px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 100px 40px;
+}
+
+.missao-itens li {
+    text-align: center;
+}
+
+.missao-itens li img {
+    margin: 0 auto 15px auto;
+}
+
+.missao-itens li h1 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #FFFFFF;
+    font-family: "Poppins", Arial, sans-serif;
+    margin-bottom: 10px;
+}
+
+.missao-itens li p {
+    font-size: 18px;
+    color: #A5A5A5;
+}
+
+@media (max-width: 700px) {
+    .missao {
+        position: relative;
+        top: -50px;
+    }
+    .missao-titulo p {
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+    .missao-titulo p br {
+        display: none;
+    }
+    .missao-itens {
+        grid-template-columns: 1fr 1fr;
+        gap: 50px 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    .missao-itens {
+        grid-template-columns: 1fr;
+        gap:30px;
+    }
+}

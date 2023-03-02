@@ -1,0 +1,86 @@
+.edificio {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    max-width: 960px;
+    margin: 60px auto 90px auto;
+}
+
+.edificio-saude {
+    text-align: center;
+}
+
+.edificio-saude img {
+    margin: 30px auto 5px auto;
+}
+
+.edificio-saude h1 {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Poppins", Arial, sans-serif;
+    margin-bottom: 15px;
+}
+
+.edificio-saude p {
+    font-size: 18px;
+    margin-bottom: 25px;
+    color: #4C4C4C;
+}
+
+.edificio-saude a {
+    border: 2px solid #000000;
+    background-color: #5F544E;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    padding: 12px 24px;
+}
+
+.edificio-saude  a:hover {
+    background-color: #948d89;
+}
+
+.edificio-topicos {
+    text-align: center;
+}
+
+.edificio-topicos img {
+    margin: 30px auto 5px auto;
+}
+
+.edificio-topicos h1 {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Poppins", Arial, sans-serif;
+    margin-bottom: 80px;
+}
+
+@media (max-width: 870px) {
+    .edificio {
+        grid-template-columns: 1fr 1fr;
+    }
+    .edificio-topicos {
+        display: none;
+    }
+}
+
+@media (max-width: 700px) {
+    .edificio {
+        position: relative;
+        top: -50px;
+    }
+}
+
+@media (max-width: 620px) {
+    .edificio {
+        grid-template-columns: 1fr;
+        top: -80px;
+    }
+    .edificio-imagem {
+        max-width: 300px;
+        margin: 10px auto;
+    }
+}

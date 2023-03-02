@@ -1,0 +1,42 @@
+.portfolio {
+    background-color: #000000;
+}
+
+.portfolio-titulo {
+    background-color: #000000;
+    padding: 60px;
+}
+
+.portfolio-titulo {
+    text-align: center;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+.portfolio-titulo h2 {
+    font-size: 20px;
+    color: #DADADA;
+    margin-bottom: 15px;
+}
+
+.portfolio-titulo h1 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.portfolio-imagens {
+    max-width: fit-content;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+@media (max-width: 620px) {
+    .portfolio {
+        position: relative;
+        top: -80px;
+    }
+    .portfolio-imagens {
+        grid-template-columns: 1fr 1fr;
+    }
+}

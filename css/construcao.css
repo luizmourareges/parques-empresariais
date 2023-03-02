@@ -1,0 +1,68 @@
+.construcao-bg {
+    background-color: #ffffff;
+}
+
+.construcao {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    padding: 100px 0px 120px 0px;
+    max-width: 960px;
+}
+
+.construcao-imagem {
+    align-self: center;
+}
+
+.construcao-conteudo {
+    text-align: center;
+}
+
+.construcao-conteudo h2 {
+    font-size: 20px;
+    font-family: "Poppins", Arial, sans-serif;
+    margin-bottom: 10px;
+}
+
+.construcao-conteudo h1 {
+    font-size: 28px;
+    font-weight: 600;
+    font-family: "Poppins", Arial, sans-serif;
+    margin-bottom: 20px;
+}
+
+.construcao-conteudo p {
+    font-size: 18px;
+    margin-bottom: 25px;
+    color: #4C4C4C;
+} 
+
+.construcao-conteudo a {
+    border: 2px solid #000000;
+    background-color: #5F544E;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 12px 24px;
+
+}
+
+.construcao-conteudo a:hover {
+    background-color: #948d89;  
+}
+
+@media (max-width: 620px) {
+    .construcao {
+        position: relative;
+        top: -50px;
+    }
+    .construcao {
+        grid-template-columns: 1fr;
+    }
+    .construcao-imagem {
+        margin: 0 auto 80px auto;
+    }
+}

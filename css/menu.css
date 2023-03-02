@@ -1,0 +1,51 @@
+.menu-bg {
+    background-color: #000000;
+    color: #fff;
+}
+
+.menu {
+    max-width: 960px;
+    margin: 0px auto 60px auto; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu a {
+    color: #fff;
+}
+
+.menu-logo {
+    max-width: 300px;
+    padding: 20px;
+}
+
+.menu-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-nav a {
+    font-size: 18px;
+    display: block;
+    padding: 15px;
+}   
+
+.menu-nav a:hover {
+    color: #696969;
+}
+
+@media (max-width: 700px) {
+    .menu-logo {
+        max-width: 250px;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 400px) {
+    .menu-nav a {
+        font-size: 16px;
+        padding: 10px;
+    }  
+}
